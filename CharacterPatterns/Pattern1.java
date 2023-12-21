@@ -1,4 +1,4 @@
-package Character_Patterns;
+package CharacterPatterns;
 
 import java.util.Scanner;
 /*  n = 7 (odd inputs only)
@@ -7,13 +7,14 @@ import java.util.Scanner;
   * * * * * 
 * * * * * * * 
   * * * * * 
-    * * * 
+    * * *
       * 
- */
+*/
 
 public class Pattern1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
@@ -26,7 +27,8 @@ public class Pattern1 {
                 for (int j = 0; j < currStars; j++) {
                     System.out.print("* ");
                 }
-            } else {
+            }
+            else {
                 int currStars = 2 * (n - row) - 1; // Deducing this value is important
                 for (int i = 0; i < (n - currStars) / 2; i++)
                     System.out.print("  ");

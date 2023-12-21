@@ -1,9 +1,8 @@
-package Character_Patterns;
+package CharacterPatterns;
 
 import java.util.Scanner;
 
 /* 
- 0123456789012345678
 0         *
 1        ***
 2       *****
@@ -18,7 +17,8 @@ import java.util.Scanner;
 11       ***
 */
 public class ChristmasTree {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
 
@@ -38,7 +38,8 @@ public class ChristmasTree {
         scn.close();
     }
 
-    public static void printStump(int n) {
+    public static void printStump(int n)
+    {
         for (int i = 0; i < n - 2; i++) {
             System.out.print(" ");
         }

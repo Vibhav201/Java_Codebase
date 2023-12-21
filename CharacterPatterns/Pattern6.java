@@ -1,4 +1,4 @@
-package Character_Patterns;
+package CharacterPatterns;
 
 import java.util.Scanner;
 
